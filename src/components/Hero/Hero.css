@@ -1,0 +1,15 @@
+.left-side {
+  background-image: url("../../img/cosmetologist.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.left-side h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  backdrop-filter: 10px;
+}
