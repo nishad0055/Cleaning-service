@@ -54,3 +54,13 @@
   font-weight: 700;
   font-size: 24px;
 }
+.safe {
+  margin-top: 150px;
+  margin-bottom: 109px;
+}
+.safe img {
+  width: 952px;
+  height: 208px;
+  display: block;
+  margin: auto;
+}

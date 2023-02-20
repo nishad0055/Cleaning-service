@@ -4,6 +4,7 @@ import plumber from "../../img/service/plumber.png";
 import electrician from "../../img/service/electrician.png";
 import painter from "../../img/service/painting.png";
 import pest from "../../img/service/pest-control.png";
+import safe from "../../img/safe.png";
 import "./SameDay.css";
 
 const SameDay = () => {
@@ -35,6 +36,9 @@ const SameDay = () => {
             <img src={pest} className="" alt="" />
             <p>Pest Control Serviecs</p>
           </div>
+        </div>
+        <div className="safe">
+          <img src={safe} alt="" />
         </div>
       </section>
     </div>
