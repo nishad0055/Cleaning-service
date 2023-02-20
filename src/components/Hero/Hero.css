@@ -13,3 +13,23 @@
   text-align: center;
   backdrop-filter: 10px;
 }
+
+.right-side h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+.coupon {
+  position: absolute;
+  width: 220px;
+  height: 31px;
+  left: 1129px;
+  background: #e8625d;
+  border-radius: 5px;
+}
+.coupon p {
+  text-align: center;
+  padding: 4px;
+}

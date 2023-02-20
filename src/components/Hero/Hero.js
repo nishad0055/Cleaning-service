@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Category from "../Category/Category";
 import "./Hero.css";
 
 const Hero = () => {
+  const [categories, setCategories] = useState([]);
+  useEffect(() => {
+    fetch("category.json")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  }, []);
   return (
-    <div>
-      <section className="left-side w-1/2 ">
+    <div className="grid grid-cols-2">
+      <section className="left-side">
         <h1 className="pt-[100px]">
           Home service, <br /> on Demand
         </h1>
@@ -42,7 +49,18 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="right-side w-1/2"></section>
+      <section className="right-side">
+        <h1>What are you looking for</h1>
+        <h1>{categories.length}</h1>
+        <div className="coupon">
+          <p>400$FLAT OFF</p>
+        </div>
+        <div className="grid grid-cols-4 gap-5 align-middle justify-items-center ">
+          {categories.map((category) => (
+            <Category key={category.id} category={category}></Category>
+          ))}
+        </div>
+      </section>
     </div>
   );
 };

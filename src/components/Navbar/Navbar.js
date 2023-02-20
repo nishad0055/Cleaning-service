@@ -11,7 +11,7 @@ import arrow from "../../img/arrow.png";
 const Navbar = () => {
   return (
     <div className="">
-      <navbar className="hidden lg:block">
+      <div className="hidden lg:block">
         <header className="w-full md:flex md:justify-between md:items-center md:py-5 md:px-10 bg-white md:shadow-md ">
           <div className="flex items-center gap-5">
             <img src={logo} alt="" className="logo " />
@@ -35,7 +35,7 @@ const Navbar = () => {
             <img src={download} alt="" className="app" />
           </div>
         </header>
-      </navbar>
+      </div>
 
       {/* mobile */}
 

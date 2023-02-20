@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01",
+    "name": "Salon at Home",
+    "img": "https://i.ibb.co/FgHYQQ4/Category-Salon.png"
+  },
+  {
+    "id": "02",
+    "name": "Electrician",
+    "img": "https://i.ibb.co/rsVL0vv/Category-Electrician.png"
+  },
+  {
+    "id": "03",
+    "name": "Plumber",
+    "img": "https://i.ibb.co/4Zzy9qV/Category-Plumber.png"
+  },
+  {
+    "id": "04",
+    "name": "CCTV",
+    "img": "https://i.ibb.co/z7trVGg/Category-CCTV.png"
+  },
+  {
+    "id": "05",
+    "name": "AC Service",
+    "img": "https://i.ibb.co/c8Nycj0/Category-AC.png"
+  },
+  {
+    "id": "06",
+    "name": "Packer & Move",
+    "img": "https://i.ibb.co/2s3tBkx/Category-Packer-Mover.png"
+  },
+  {
+    "id": "07",
+    "name": "Cleaning",
+    "img": "https://i.ibb.co/3YYxfc9/Category-Cleaning.png"
+  },
+  {
+    "id": "08",
+    "name": "Home Painting",
+    "img": "https://i.ibb.co/QXM3TkV/Category-Painter.png"
+  },
+  {
+    "id": "09",
+    "name": "Home Appliances",
+    "img": "https://i.ibb.co/ZBZ8fGv/Category-Home-Appliance.png"
+  },
+  {
+    "id": "10",
+    "name": "Disinfection",
+    "img": "https://i.ibb.co/TMFtvK1/Disinfection.png"
+  },
+  {
+    "id": "11",
+    "name": "Pest Control",
+    "img": "https://i.ibb.co/By0xvkK/Category-Pest-control.png"
+  },
+  {
+    "id": "12",
+    "name": "Carpenter",
+    "img": "https://i.ibb.co/kqN2B9D/Category-Carpenter.png"
+  }
+]
