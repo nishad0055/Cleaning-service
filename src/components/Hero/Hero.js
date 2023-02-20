@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Category from "../Category/Category";
 import "./Hero.css";
+import banner from "../../img/cat/1.png";
+import banner2 from "../../img/cat/2.png";
+import banner3 from "../../img/cat/5.png";
 
 const Hero = () => {
   const [categories, setCategories] = useState([]);
@@ -50,15 +53,21 @@ const Hero = () => {
       </section>
 
       <section className="right-side">
-        <h1>What are you looking for</h1>
-        <h1>{categories.length}</h1>
+        <h1 className="pt-5">What are you looking for</h1>
+
         <div className="coupon">
           <p>400$FLAT OFF</p>
         </div>
-        <div className="grid grid-cols-4 gap-5 align-middle justify-items-center ">
+        <div className="grid grid-cols-4 gap-10 my-12 mx-4  justify-items-center ">
           {categories.map((category) => (
             <Category key={category.id} category={category}></Category>
           ))}
+        </div>
+
+        <div className="grid grid-cols-3 gap-4 mx-4 bannner ">
+          <img src={banner} alt="" />
+          <img src={banner3} alt="" />
+          <img src={banner2} alt="" />
         </div>
       </section>
     </div>
