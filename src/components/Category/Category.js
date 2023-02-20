@@ -11,7 +11,7 @@ const Category = ({ category }) => {
             className="w-[35px] h-[35px] block mx-auto "
             alt="category_img"
           />
-          <h5 className="">{name}</h5>
+          <h5 className="text-lg">{name}</h5>
         </div>
       </a>
     </div>

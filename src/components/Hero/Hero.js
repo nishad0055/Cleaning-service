@@ -13,8 +13,8 @@ const Hero = () => {
       .then((data) => setCategories(data));
   }, []);
   return (
-    <div className="grid grid-cols-2">
-      <section className="left-side">
+    <div className="grid md:grid-cols-2">
+      <section className="left-side hidden md:block">
         <h1 className="pt-[100px]">
           Home service, <br /> on Demand
         </h1>
@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="coupon">
           <p>400$FLAT OFF</p>
         </div>
-        <div className="grid grid-cols-4 gap-10 my-12 mx-4  justify-items-center ">
+        <div className="grid grid-cols-4 gap-10 my-7 mx-4  justify-items-center ">
           {categories.map((category) => (
             <Category key={category.id} category={category}></Category>
           ))}

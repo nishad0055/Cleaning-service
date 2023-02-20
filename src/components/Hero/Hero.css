@@ -21,14 +21,7 @@
   font-size: 36px;
   text-align: center;
 }
-.coupon {
-  position: absolute;
-  width: 220px;
-  height: 31px;
-  left: 1129px;
-  background: #e8625d;
-  border-radius: 5px;
-}
+
 .coupon p {
   text-align: center;
   padding: 4px;
@@ -36,4 +29,25 @@
 .bannner img {
   width: 382.78px;
   height: 200px;
+}
+
+@media only screen and (min-width: 992px) {
+  .coupon {
+    position: absolute;
+    width: 220px;
+    height: 31px;
+    left: 1129px;
+    background: #e8625d;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .coupon {
+    position: absolute;
+    width: 220px;
+    height: 31px;
+    left: 1329px;
+    background: #e8625d;
+    border-radius: 5px;
+  }
 }
