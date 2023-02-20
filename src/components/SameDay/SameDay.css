@@ -1,0 +1,56 @@
+.ascard {
+  width: 222px;
+  height: 232.94px;
+  background: linear-gradient(48.55deg, #ffa500 -6.74%, #ffecca 120.59%);
+  box-shadow: 0px 6px 30px 3.5px rgba(57, 57, 57, 0.15);
+  border-radius: 27.503px;
+  position: relative;
+  padding: 25px;
+}
+.scard {
+  position: relative;
+  width: 221px;
+  height: 232.94px;
+  background: #ffffff;
+  box-shadow: 0px 6px 30px 3.5px rgba(57, 57, 57, 0.15);
+  border-radius: 27.503px;
+
+  padding: 25px;
+}
+.ascard img {
+  position: absolute;
+
+  width: 159.56px;
+  height: 225.61px;
+
+  top: -48%;
+
+  left: 16%;
+}
+.scard img {
+  position: absolute;
+
+  width: 159.56px;
+  height: 225.61px;
+
+  top: -48%;
+
+  left: 16%;
+}
+.ascard p {
+  position: relative;
+  top: 65%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.scard p {
+  position: relative;
+  top: 65%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}

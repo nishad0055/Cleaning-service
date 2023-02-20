@@ -4,35 +4,36 @@ import plumber from "../../img/service/plumber.png";
 import electrician from "../../img/service/electrician.png";
 import painter from "../../img/service/painting.png";
 import pest from "../../img/service/pest-control.png";
+import "./SameDay.css";
 
 const SameDay = () => {
   return (
     <div>
       <section>
-        <div className="trend text-center">
+        <div className="trend text-center pb-20">
           <h2>Trending Services</h2>
           <p>Premium Home Services</p>
         </div>
         <div className="grid grid-cols-5 mt-16 justify-items-center mx-10">
-          <div className="card text-center">
+          <div className="ascard text-center">
             <img src={carpenter} className="" alt="" />
-            <p>Air-condtioner service</p>
+            <p>Carpentery Services</p>
           </div>
-          <div className="card text-center">
+          <div className="scard text-center">
             <img src={plumber} className="" alt="" />
-            <p>AC Installation</p>
+            <p>Plumbing Services</p>
           </div>
-          <div className="card text-center">
+          <div className="scard text-center">
             <img src={electrician} className="" alt="" />
-            <p>Sofa Cleaning Service</p>
+            <p>Electrical Services</p>
           </div>
-          <div className="card text-center">
+          <div className="scard text-center">
             <img src={painter} className="" alt="" />
-            <p>Home Deep Cleaning Service</p>
+            <p>Painting Services</p>
           </div>
-          <div className="card text-center">
+          <div className="scard text-center">
             <img src={pest} className="" alt="" />
-            <p>Air-Conditioner Services</p>
+            <p>Pest Control Serviecs</p>
           </div>
         </div>
       </section>
