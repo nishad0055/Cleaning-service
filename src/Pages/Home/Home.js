@@ -4,6 +4,7 @@ import ElectricianSlides from "../../components/ElectricianSlides/ElectricianSli
 import Hero from "../../components/Hero/Hero";
 import HomeAppliences from "../../components/HomeAppliences/HomeAppliences";
 import MostUsed from "../../components/MostUsed/MostUsed";
+import PlumbingSlides from "../../components/PlumbingSlides/PlumbingSlides";
 import Profession from "../../components/Profession/Profession";
 import SameDay from "../../components/SameDay/SameDay";
 import Trending from "../../components/Trending/Trending";
@@ -19,6 +20,7 @@ const Home = () => {
       <HomeAppliences />
       <Banner />
       <ElectricianSlides />
+      <PlumbingSlides />
     </div>
   );
 };
