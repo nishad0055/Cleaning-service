@@ -13,7 +13,7 @@ const Refer = () => {
         <div>
           <h2>Refer and or get link </h2>
           <p className="pb-5">Invite your friends</p>
-          <input type="text" />
+          <input type="text" placeholder="Enter a 10 digit number" />
           <button className="btn">
             {" "}
             <img src={arrow} alt="" className="w-[49px] h-[49px]" />{" "}
