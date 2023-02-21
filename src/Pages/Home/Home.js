@@ -1,4 +1,6 @@
 import React from "react";
+import Banner from "../../components/Banner/Banner";
+import ElectricianSlides from "../../components/ElectricianSlides/ElectricianSlides";
 import Hero from "../../components/Hero/Hero";
 import HomeAppliences from "../../components/HomeAppliences/HomeAppliences";
 import MostUsed from "../../components/MostUsed/MostUsed";
@@ -15,6 +17,8 @@ const Home = () => {
       <Profession />
       <MostUsed />
       <HomeAppliences />
+      <Banner />
+      <ElectricianSlides />
     </div>
   );
 };

@@ -10,7 +10,7 @@ import "./HomeAppliences.css";
 const HomeAppliences = () => {
   return (
     <div>
-      <section className="mb-20">
+      <section>
         <div className="trend text-center mb-20">
           <h2>Professional Cleaning Services</h2>
           <p>Premium Home Services</p>
