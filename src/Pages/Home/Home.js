@@ -8,6 +8,7 @@ import MostUsed from "../../components/MostUsed/MostUsed";
 import PlumbingSlides from "../../components/PlumbingSlides/PlumbingSlides";
 import Profession from "../../components/Profession/Profession";
 import SameDay from "../../components/SameDay/SameDay";
+import Testimonial from "../../components/Testimonials/Testimonial";
 import Trending from "../../components/Trending/Trending";
 import Whychose from "../../components/WhyChose/Whychose";
 
@@ -25,6 +26,7 @@ const Home = () => {
       <PlumbingSlides />
       <CarpenterSlides />
       <Whychose />
+      <Testimonial />
     </div>
   );
 };
