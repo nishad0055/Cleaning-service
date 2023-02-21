@@ -10,7 +10,7 @@ import "./SameDay.css";
 const SameDay = () => {
   return (
     <div>
-      <section>
+      <section className="mb-24">
         <div className="trend text-center pb-20">
           <h2>Trending Services</h2>
           <p>Premium Home Services</p>

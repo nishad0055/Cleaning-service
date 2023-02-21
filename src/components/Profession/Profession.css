@@ -1,0 +1,13 @@
+.cards {
+  margin: 0 120px;
+}
+
+.cards h2 {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 21px;
+}
+
+.cards p {
+  font-size: 14px;
+}
