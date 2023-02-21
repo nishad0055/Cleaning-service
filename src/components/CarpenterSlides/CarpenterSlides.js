@@ -22,7 +22,7 @@ const CarpenterSlides = () => {
 
   return (
     <div>
-      <section className="flex items-center mt-32">
+      <section className="flex items-center mt-32 container mx-auto">
         <div className="service-name">
           <h2>Carpenter Services</h2>
           <span>Premium Services</span>
@@ -30,7 +30,7 @@ const CarpenterSlides = () => {
         <Swiper
           onSwiper={setSwiperRef}
           slidesPerView={4}
-          spaceBetween={20}
+          spaceBetween={10}
           pagination={{
             type: "fraction",
           }}

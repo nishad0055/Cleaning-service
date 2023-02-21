@@ -24,7 +24,7 @@ const ElectricianSlides = () => {
 
   return (
     <div>
-      <section className="flex items-center">
+      <section className="flex items-center container mx-auto">
         <div className="service-name">
           <h2>Electrician Service</h2>
           <span>Premium Services</span>

@@ -9,6 +9,7 @@ import PlumbingSlides from "../../components/PlumbingSlides/PlumbingSlides";
 import Profession from "../../components/Profession/Profession";
 import SameDay from "../../components/SameDay/SameDay";
 import Trending from "../../components/Trending/Trending";
+import Whychose from "../../components/WhyChose/Whychose";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <ElectricianSlides />
       <PlumbingSlides />
       <CarpenterSlides />
+      <Whychose />
     </div>
   );
 };

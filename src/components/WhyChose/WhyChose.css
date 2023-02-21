@@ -1,0 +1,27 @@
+.whyChoose {
+  background-color: #e5e4e9;
+  height: 427px;
+}
+
+.wcards {
+  width: 496.34px;
+  height: 384px;
+}
+.whyChoose img {
+  width: 581.8px;
+  height: 428px;
+}
+
+.whyChoose h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #017f82;
+}
+.whyChoose ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
