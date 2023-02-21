@@ -7,6 +7,7 @@ import HomeAppliences from "../../components/HomeAppliences/HomeAppliences";
 import MostUsed from "../../components/MostUsed/MostUsed";
 import PlumbingSlides from "../../components/PlumbingSlides/PlumbingSlides";
 import Profession from "../../components/Profession/Profession";
+import Refer from "../../components/Refer/Refer";
 import SameDay from "../../components/SameDay/SameDay";
 import Testimonial from "../../components/Testimonials/Testimonial";
 import Trending from "../../components/Trending/Trending";
@@ -27,6 +28,7 @@ const Home = () => {
       <CarpenterSlides />
       <Whychose />
       <Testimonial />
+      <Refer />
     </div>
   );
 };
