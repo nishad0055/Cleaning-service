@@ -7,26 +7,24 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 //Images
-import fuse from "../../img/Electrician/mcb___fuse.png";
-import sockets from "../../img/Electrician/switches___sockets.png";
-import wiring from "../../img/Electrician/wiring.png";
-import appliences from "../../img/Electrician/appliance.png";
-import chandelier from "../../img/Electrician/chandelier.png";
-import doorbell from "../../img/Electrician/door_bell.png";
-
-import "./ElectricianSlide.css";
+import one from "../../img/Home/Bed.png";
+import two from "../../img/Home/Curtain & Blinds.png";
+import three from "../../img/Home/door.png";
+import four from "../../img/Home/Drawer_&_cupboard.png";
+import five from "../../img/Home/Fitting_&_minor_installations.png";
+import six from "../../img/Home/Furniture_assembly.png";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-const ElectricianSlides = () => {
+const CarpenterSlides = () => {
   const [swiperRef, setSwiperRef] = useState(null);
 
   return (
     <div>
-      <section className="flex items-center">
+      <section className="flex items-center mt-32">
         <div className="service-name">
-          <h2>Electrician Service</h2>
+          <h2>Carpenter Services</h2>
           <span>Premium Services</span>
         </div>
         <Swiper
@@ -42,55 +40,55 @@ const ElectricianSlides = () => {
         >
           <SwiperSlide>
             <div className="slide-card text-center">
-              <img src={fuse} className="" alt="" />
+              <img src={one} className="" alt="" />
               <div className="slide-info">
-                <h6>MCB & Fuse</h6>
-                <p>Repairing & Installation</p>
+                <h6>Bed</h6>
+                <p>Repairing Support, Legs</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             {" "}
             <div className="slide-card text-center">
-              <img src={sockets} className="" alt="" />
+              <img src={two} className="" alt="" />
               <div className="slide-info">
-                <h6>Switch & Socket</h6>
-                <p>Shower, Faucets & Holder Installation & Repair</p>
+                <h6>Curtain & Blinds</h6>
+                <p>Motorized, Non-Motorized Blinds & Curtain Rod</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-card text-center">
-              <img src={wiring} className="" alt="" />
+              <img src={three} className="" alt="" />
               <div className="slide-info">
-                <h6>Wiring</h6>
-                <p>Toilet pot, Sink, Bathroom, Balcony pipe</p>
+                <h6>Door</h6>
+                <p>Repairing, Accessories Installation</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-card text-center">
-              <img src={appliences} className="" alt="" />
+              <img src={four} className="" alt="" />
               <div className="slide-info">
-                <h6>Appliances</h6>
-                <p>Painting, Clock & Photoframe</p>
+                <h6>Drawer & Cupboard</h6>
+                <p>Channel, Hinge Repair</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-card text-center">
-              <img src={chandelier} className="" alt="" />
+              <img src={five} className="" alt="" />
               <div className="slide-info">
-                <h6>Chandelier</h6>
+                <h6>Fittings & Installations</h6>
                 <p>Holder, Hanger, Rod Installation</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-card text-center">
-              <img src={doorbell} className="" alt="" />
+              <img src={six} className="" alt="" />
               <div className="slide-info">
-                <h6>Door Bell</h6>
+                <h6>Furniture Assembly</h6>
                 <p>Bed, Table, Rack & Cabinet</p>
               </div>
             </div>
@@ -101,4 +99,4 @@ const ElectricianSlides = () => {
   );
 };
 
-export default ElectricianSlides;
+export default CarpenterSlides;

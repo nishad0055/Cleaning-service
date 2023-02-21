@@ -30,7 +30,6 @@ const PlumbingSlides = () => {
         <Swiper
           onSwiper={setSwiperRef}
           slidesPerView={4}
-          centeredSlides={true}
           spaceBetween={20}
           pagination={{
             type: "fraction",
