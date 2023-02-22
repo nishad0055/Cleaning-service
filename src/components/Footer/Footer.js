@@ -16,11 +16,11 @@ const Footer = () => {
   return (
     <div>
       <section className="footer py-20 px-20">
-        <div className="grid grid-cols-12">
+        <div className="grid grid-cols-12 text-white">
           <div className="col-span-2">
             <h6 className="">RELATED SERVICES</h6>
           </div>
-          <div className="flex flex-wrap gap-1 col-span-10">
+          <div className="flex flex-wrap gap-1 col-span-10 list">
             <Link>Electrician</Link>|<Link>Electrician</Link>|
             <Link>Electrician</Link>|<Link>Electrician</Link>|
             <Link>Electrician</Link>|<Link>Electrician</Link>|
@@ -32,16 +32,16 @@ const Footer = () => {
             <Link>Electrician</Link>|
           </div>
         </div>
-        <div className="grid grid-cols-12">
+        <div className="grid grid-cols-12 pt-10">
           <div className="col-span-2">
-            <h6 className="">RELATED SERVICES</h6>
+            <h6 className="text-white">Top Locations</h6>
           </div>
-          <div className="flex flex-wrap gap-1 col-span-10">
+          <div className="flex flex-wrap gap-1 col-span-10 text-[13px] text-white  font-medium ">
             <Link>Electrician</Link>|<Link>Electrician</Link>|
             <Link>Electrician</Link>|<Link>Electrician</Link>|
           </div>
         </div>
-        <nav className="flex justify-evenly">
+        <nav className="flex justify-evenly text-[15px] font-semibold text-white pt-[60px] ">
           <Link>About us</Link>
           <Link>Blog</Link>
           <Link>Near me</Link>
@@ -63,12 +63,22 @@ const Footer = () => {
             <img className="w-[160px] h-[49px]" src={google} alt="" />
           </div>
         </div>
-        <div className="flex justify-center items-center ">
-          <FiInstagram />
-          <FiTwitter />
-          <FiLinkedin />
-          <FiFacebook />
-          <FiYoutube />
+        <div className="flex justify-center items-center text-white gap-4 ">
+          <Link>
+            <FiInstagram size={28} />
+          </Link>
+          <Link>
+            <FiTwitter size={28} />
+          </Link>
+          <Link>
+            <FiLinkedin size={28} />
+          </Link>
+          <Link>
+            <FiFacebook size={28} />
+          </Link>
+          <Link>
+            <FiYoutube size={28} />
+          </Link>
         </div>
         <div className="text-center">
           <p>© 2021 OyeBusy Technologies Pvt. Ltd.</p>

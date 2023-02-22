@@ -2,3 +2,16 @@
   background-color: #343434;
   height: 646px;
 }
+
+.footer h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+.footer .list {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
