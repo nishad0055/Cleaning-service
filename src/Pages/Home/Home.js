@@ -1,4 +1,5 @@
 import React from "react";
+import Assured from "../../components/Assured/Assured";
 import Banner from "../../components/Banner/Banner";
 import CarpenterSlides from "../../components/CarpenterSlides/CarpenterSlides";
 import ElectricianSlides from "../../components/ElectricianSlides/ElectricianSlides";
@@ -22,6 +23,7 @@ const Home = () => {
       <SameDay />
       <Profession />
       <MostUsed />
+      <Assured />
       <HomeAppliences />
       <Banner />
       <ElectricianSlides />
