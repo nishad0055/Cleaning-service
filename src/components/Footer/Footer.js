@@ -52,7 +52,7 @@ const Footer = () => {
           <Link>Contact us</Link>
         </nav>
 
-        <div className="flex  items-center  pl-[18rem] gap-10 ">
+        <div className="flex  items-center  pl-[18rem] gap-10 pt-6  contact ">
           <div>
             <h6>Contact us</h6>
             <p> Phone: +9187644778 </p>
@@ -63,7 +63,7 @@ const Footer = () => {
             <img className="w-[160px] h-[49px]" src={google} alt="" />
           </div>
         </div>
-        <div className="flex justify-center items-center text-white gap-4 ">
+        <div className="flex justify-center items-center text-white gap-4 pt-20 ">
           <Link>
             <FiInstagram size={28} />
           </Link>
@@ -81,7 +81,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className="text-center">
-          <p>© 2021 OyeBusy Technologies Pvt. Ltd.</p>
+          <p className="text-[11px] font-semibold text-white pt-5 ">
+            © 2021 OyeBusy Technologies Pvt. Ltd.
+          </p>
         </div>
       </section>
     </div>

@@ -15,3 +15,18 @@
   font-weight: 700;
   font-size: 13px;
 }
+.contact h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.7039px;
+  color: #56fbff;
+  padding-bottom: 26px;
+}
+.contact p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+}
