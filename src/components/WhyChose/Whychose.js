@@ -30,7 +30,7 @@ const Whychose = () => {
 
       {/* mobile section */}
 
-      <section className="mt-20 mb-16 container mx-auto md:hidden ">
+      <section className="mt-[43px] md:mt-20 mb-[52px] md:mb-16 container mx-auto md:hidden ">
         <div>
           <h3 className="text-lg font-bold text-[#E8625D] pl-6 pb-6">
             Why Choose Us?

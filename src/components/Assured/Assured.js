@@ -32,7 +32,7 @@ const Assured = () => {
         <div className="text-center pb-8 md:pb-14">
           <h2>Assured Peace of Mind</h2>
         </div>
-        <div className="md:flex gap-10 container mx-auto ">
+        <div className="md:flex gap-10 mx-2 md:mx-0">
           <div className="flex  flex-row items-center assured-card gap-1">
             <div>
               <img id="high" src={high} alt="" className="" />

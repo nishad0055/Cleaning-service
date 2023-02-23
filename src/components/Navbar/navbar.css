@@ -10,3 +10,10 @@
   width: 196px;
   height: 38px;
 }
+.menu a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #415859;
+}

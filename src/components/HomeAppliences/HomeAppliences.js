@@ -10,9 +10,9 @@ import "./HomeAppliences.css";
 const HomeAppliences = () => {
   return (
     <div>
-      <section className="container mx-auto" >
-        <div className="trend text-center mb-20">
-          <h2>Professional Cleaning Services</h2>
+      <section className="container mx-auto">
+        <div className="trend text-center  mb-6 md:mb-20">
+          <h2>Home Appliances Services</h2>
           <p>Premium Home Services</p>
         </div>
         <div className="grid  grid-cols-3 md:grid-cols-6 mt-16 gap-y-12 md:gap-y-0 justify-items-center">

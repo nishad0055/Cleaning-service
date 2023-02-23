@@ -8,7 +8,7 @@ import home from "../../img/service/home13.png";
 const Trending = () => {
   return (
     <div>
-      <section className="mt-20 mb-10 container mx-auto">
+      <section className="mt-7 md:mt-20 mb-12 md:mb-14 container mx-auto">
         <div className="trend text-center">
           <h2>Trending Services</h2>
           <p>Premium Home Services</p>

@@ -11,7 +11,7 @@ const SameDay = () => {
   return (
     <div>
       <section className="mb-24">
-        <div className="trend text-center pb-20">
+        <div className="trend text-center  pb-5 md:pb-20">
           <h2>Same Day Service</h2>
           <p>Premium Home Services</p>
         </div>

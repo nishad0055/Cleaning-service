@@ -22,7 +22,7 @@ const PlumbingSlides = () => {
 
   return (
     <div>
-      <section className="md:flex items-center mt-32 container mx-auto">
+      <section className="md:flex items-center mt-14 md:mt-32 container mx-auto">
         <div className="service-name text-center md:text-left ">
           <h2>Plumber Services</h2>
           <span>Premium Services</span>

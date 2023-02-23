@@ -8,34 +8,34 @@ const MostUsed = () => {
       img: box,
       title: "Professional Deep Cleaning",
       desc: "For spring  clean for  end of  lease clean",
-      off: 'UPTO 40% OFF'
+      off: "UPTO 40% OFF",
     },
     {
       id: 2,
       img: box,
       title: "Professional Deep Cleaning",
       desc: "For spring  clean for  end of  lease clean",
-      off: 'UPTO 40% OFF'
+      off: "UPTO 40% OFF",
     },
     {
       id: 3,
       img: box,
       title: "Professional Deep Cleaning",
       desc: "For spring  clean for  end of  lease clean",
-      off: 'UPTO 40% OFF'
+      off: "UPTO 40% OFF",
     },
     {
       id: 3,
       img: box,
       title: "Professional Deep Cleaning",
       desc: "For spring  clean for  end of  lease clean",
-      off: 'UPTO 40% OFF'
+      off: "UPTO 40% OFF",
     },
   ];
   return (
     <div>
-      <section className="my-24">
-        <div className="trend text-center mb-20">
+      <section className="my-10 md:my-24">
+        <div className="trend text-center mb-[18px] md:mb-20">
           <h2>Most Used Services</h2>
           <p>Premium Home Services</p>
         </div>
@@ -45,7 +45,7 @@ const MostUsed = () => {
               <img src={service.img} alt="" />
               <h2>{service.title}</h2>
               <p className=" hidden md:block ">{service.desc}</p>
-              <p className="md:hidden" > {service.off} </p>
+              <p className="md:hidden"> {service.off} </p>
             </div>
           ))}
         </div>

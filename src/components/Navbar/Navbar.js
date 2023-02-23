@@ -17,7 +17,7 @@ const Navbar = () => {
             <img src={logo} alt="" className="logo " />
             <div className="flex items-center">
               <FiMapPin />
-              <h5 className="text-[12px]  text-[#415859]  ">
+              <h5 className="text-base font-['Roboto']  text-[#415859]  ">
                 1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh
                 201301
               </h5>
@@ -25,13 +25,13 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center gap-5">
-            <nav className="flex items-center text-base font-medium">
+            <nav className="flex items-center text-base font-medium menu">
               <Link className="mr-5 ">Blog</Link>
               <Link className="mr-5 ">Career</Link>
               <Link className="mr-1">My Account</Link>
               <MdOutlineKeyboardArrowDown />
             </nav>
-            <FaShoppingCart />
+            <FaShoppingCart color="#415859" />
             <img src={download} alt="" className="app" />
           </div>
         </header>
@@ -42,7 +42,7 @@ const Navbar = () => {
       <section className="container mx-auto md:hidden">
         <div className="flex items-center w-full   py-5 px-5  shadow-sm">
           <FiMapPin />
-          <h5 className="text-[12px]  text-[#415859] mr-[0.8px] ">
+          <h5 className="text-[12px]  font-['Roboto'] text-[#415859] mr-[0.8px] ">
             1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301
           </h5>
           <MdOutlineKeyboardArrowDown />

@@ -1,5 +1,6 @@
 .left-side {
   background-image: url("../../img/cosmetologist.png");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -25,10 +26,24 @@
 .coupon p {
   text-align: center;
   padding: 4px;
+  color: #ffffff;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18.3333px;
 }
 .bannner img {
   width: 382.78px;
   height: 200px;
+}
+
+/* category */
+
+.cat h5 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8354px;
 }
 
 @media only screen and (min-width: 992px) {
