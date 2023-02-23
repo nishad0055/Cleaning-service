@@ -1,7 +1,7 @@
 import React from "react";
 import box from "../../img/Rectangle.png";
 
-const MostUsed = () => {
+const TrendingServices = () => {
   const services = [
     {
       id: 1,
@@ -36,7 +36,7 @@ const MostUsed = () => {
     <div>
       <section className="my-24">
         <div className="trend text-center mb-20">
-          <h2>Most Used Services</h2>
+          <h2>Trending Services</h2>
           <p>Premium Home Services</p>
         </div>
         <div className="cards grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
@@ -54,4 +54,4 @@ const MostUsed = () => {
   );
 };
 
-export default MostUsed;
+export default TrendingServices;

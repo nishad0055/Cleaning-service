@@ -12,6 +12,7 @@ import Profession from "../../components/Profession/Profession";
 import Refer from "../../components/Refer/Refer";
 import SameDay from "../../components/SameDay/SameDay";
 import Testimonial from "../../components/Testimonials/Testimonial";
+import TrendingServices from "../../components/TredingServices/TrendingServices";
 import Trending from "../../components/Trending/Trending";
 import Whychose from "../../components/WhyChose/Whychose";
 
@@ -24,6 +25,7 @@ const Home = () => {
       <Profession />
       <MostUsed />
       <Assured />
+      <TrendingServices/>
       <HomeAppliences />
       <Banner />
       <ElectricianSlides />
