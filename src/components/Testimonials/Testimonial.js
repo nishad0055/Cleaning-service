@@ -33,7 +33,7 @@ const Testimonial = () => {
   return (
     <div>
       <section className="container-mx-auto">
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-4 gap-10 justify-items-center md:justify-items-start">
           {reviewsDate.map((review) => (
             <TestimonialCard key={review.id} review={review}></TestimonialCard>
           ))}

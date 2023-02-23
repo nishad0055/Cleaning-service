@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import google from "../../img/google.png";
+import home from "../../img/home.png";
+import bookings from "../../img/bookings.png";
+import love from "../../img/love.png";
+import accounts from "../../img/accounts.png";
+import arrow from "../../img/left-arrow.png";
+
 import "./Footer.css";
 
 //social-icons
@@ -15,7 +21,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <section className="footer py-20 px-20">
+      <section className="footer py-20 px-20 hidden md:block">
         <div className="grid grid-cols-12 text-white">
           <div className="col-span-2">
             <h6 className="">RELATED SERVICES</h6>
@@ -84,6 +90,31 @@ const Footer = () => {
           <p className="text-[11px] font-semibold text-white pt-5 ">
             © 2021 OyeBusy Technologies Pvt. Ltd.
           </p>
+        </div>
+      </section>
+      {/* mobile section */}
+      <section className="md:hidden border-t border-gray-400  ">
+        <div className="flex mobile-footer items-center justify-evenly pt-1">
+          <Link className="active">
+            <img src={home} alt="" />
+            Home
+          </Link>
+          <Link>
+            <img src={bookings} alt="" />
+            Bookings
+          </Link>
+          <Link>
+            <img src={love} alt="" />
+            Love
+          </Link>
+          <Link>
+            <img src={accounts} alt="" />
+            Accounts
+          </Link>
+        </div>
+        <div className="black">
+          <img src={arrow} alt="" />
+          <div className="line"></div>
         </div>
       </section>
     </div>

@@ -8,8 +8,8 @@ import "./Refer.css";
 
 const Refer = () => {
   return (
-    <div>
-      <section className="refer mt-24 mb-20 flex justify-evenly items-center overflow-hidden ">
+    <section className="hidden md:block">
+      <div className="refer mt-24 mb-20 flex justify-evenly items-center overflow-hidden">
         <div>
           <h2>Refer and or get link </h2>
           <p className="pb-5">Invite your friends</p>
@@ -27,8 +27,8 @@ const Refer = () => {
           <img src={phone1} alt="" className="phone1" />
           <img src={phone2} alt="" className="phone2" />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
