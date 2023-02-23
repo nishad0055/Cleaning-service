@@ -14,7 +14,7 @@ const Trending = () => {
           <p>Premium Home Services</p>
         </div>
         {/* service card */}
-        <div className="grid grid-cols-5 mt-16 justify-items-center mx-10">
+        <div className="grid grid-cols-2 md:grid-cols-5 mt-16 gap-y-14 md:gap-0 justify-items-center md:mx-10">
           <div className="card text-center">
             <img src={airconditiona} className="" alt="" />
             <p>Air-condtioner service</p>
@@ -31,7 +31,7 @@ const Trending = () => {
             <img src={home} className="" alt="" />
             <p>Home Deep Cleaning Service</p>
           </div>
-          <div className="card text-center">
+          <div className="card text-center hidden md:block">
             <img src={airconditiona} className="" alt="" />
             <p>Air-Conditioner Services</p>
           </div>

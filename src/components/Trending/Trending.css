@@ -33,3 +33,43 @@
   position: relative;
   top: 92px;
 }
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .card {
+    width: 142px;
+    height: 92px;
+    background: #ffffff;
+    box-shadow: 0px 5.07432px 25.3716px 2.96002px rgba(57, 57, 57, 0.15);
+    border-radius: 17.9289px;
+    position: relative;
+  }
+  .card img {
+    position: absolute;
+    width: 89.79px;
+    height: 89.79px;
+    top: -44px;
+    /* display: block; */
+    /* margin: auto; */
+    left: 16%;
+  }
+  .card p {
+    position: relative;
+    top: 42px;
+  }
+
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+
