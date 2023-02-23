@@ -21,15 +21,15 @@ const Footer = () => {
             <h6 className="">RELATED SERVICES</h6>
           </div>
           <div className="flex flex-wrap gap-1 col-span-10 list">
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|<Link>Electrician</Link>|
-            <Link>Electrician</Link>|
+            <Link>Electrician</Link>|<Link>Plumber</Link>|<Link>Carpenter</Link>
+            |<Link>Packers & Movers</Link>|<Link>Salon For Women </Link>|
+            <Link>Salon For Men</Link>|<Link>Electronic Appliences</Link>|
+            <Link></Link>|<Link>Electrician</Link>|
+            <Link>CCTV Installation & Repair</Link>|
+            <Link>Ro- repair & service</Link>|<Link>Electrician</Link>|
+            <Link>House Painter</Link>|<Link>Pest Control</Link>|
+            <Link>Kitchen cleaning </Link>|<Link>Bathroom Cleaning</Link>|
+            <Link>Sofa Cleaning</Link>| <Link>Home Deep Cleaning</Link>|
           </div>
         </div>
         <div className="grid grid-cols-12 pt-10">
