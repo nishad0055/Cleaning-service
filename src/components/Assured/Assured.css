@@ -23,3 +23,27 @@
 .assured-card img {
   width: 183px;
 }
+
+@media only screen and (max-width: 595px) {
+  .assured h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #high {
+    width: 70px;
+  }
+  #hassle {
+    width: 61px;
+  }
+  .assured-card h6 {
+    font-size: 16.5448px;
+  }
+  .assured-card p {
+    font-size: 11.2505px;
+  }
+  .assured-card img {
+    width: 95px;
+  }
+}

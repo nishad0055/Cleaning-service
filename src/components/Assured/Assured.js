@@ -29,15 +29,15 @@ const Assured = () => {
   return (
     <div>
       <section className="assured   py-16 md:pl-20 ">
-        <div className="text-center pb-14">
+        <div className="text-center pb-8 md:pb-14">
           <h2>Assured Peace of Mind</h2>
         </div>
         <div className="md:flex gap-10 container mx-auto ">
-          <div className="flex flex-col md:flex-row  items-center assured-card">
+          <div className="flex  flex-row items-center assured-card gap-1">
             <div>
-              <img src={high} alt="" className="" />
+              <img id="high" src={high} alt="" className="" />
             </div>
-            <div className="text-center md:text-left">
+            <div className="">
               <h6>High Quality Work</h6>
               <p>
                 Only authorized service experts and genuine spare parts and
@@ -45,20 +45,20 @@ const Assured = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center assured-card">
+          <div className="flex flex-row items-center assured-card gap-1">
             <div>
-              <img src={hassle} alt="" />
+              <img id="hassle" src={hassle} alt="" />
             </div>
-            <div className="text-center md:text-left">
+            <div className="">
               <h6>Hassle Free</h6>
               <p>Sit back and relax We do all the work</p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center assured-card">
+          <div className="flex flex-row items-center assured-card gap-1 ">
             <div>
               <img src={total} alt="" />
             </div>
-            <div className="text-center md:text-left">
+            <div className="">
               <h6>Totally Cashless</h6>
               <p>
                 Pay online for Safe & Secure payment.Many benefits and offers
