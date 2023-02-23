@@ -12,10 +12,10 @@ const SameDay = () => {
     <div>
       <section className="mb-24">
         <div className="trend text-center pb-20">
-          <h2>Trending Services</h2>
+          <h2>Same Day Service</h2>
           <p>Premium Home Services</p>
         </div>
-        <div className="grid grid-cols-5 mt-16 justify-items-center mx-10">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-y-16 md:gap-y-0 mt-16 justify-items-center md:mx-10">
           <div className="ascard text-center">
             <img src={carpenter} className="" alt="" />
             <p>Carpentery Services</p>
@@ -33,6 +33,10 @@ const SameDay = () => {
             <p>Painting Services</p>
           </div>
           <div className="scard text-center">
+            <img src={pest} className="" alt="" />
+            <p>Pest Control Serviecs</p>
+          </div>
+          <div className="scard text-center md:hidden">
             <img src={pest} className="" alt="" />
             <p>Pest Control Serviecs</p>
           </div>

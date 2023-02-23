@@ -64,3 +64,68 @@
   display: block;
   margin: auto;
 }
+
+
+@media only screen and (max-width: 595px) {
+  .ascard {
+    width: 98px;
+    height: 103.25px;
+    background: linear-gradient(48.55deg, #ffa500 -6.74%, #ffecca 120.59%);
+    box-shadow: 0px 6px 30px 3.5px rgba(57, 57, 57, 0.15);
+    border-radius: 27.503px;
+    position: relative;
+    padding: 14px;
+  }
+  .ascard img {
+    position: absolute;
+  
+    width: 120px;
+    height: 100px;
+    top: -48%;
+    left: 16%;
+  }
+  .ascard p {
+    position: relative;
+    top: 65%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  .scard {
+    position: relative;
+    width: 110px;
+    height: 115.25px;
+    background: #ffffff;
+    box-shadow: 0px 6px 30px 3.5px rgba(57, 57, 57, 0.15);
+    border-radius: 27.503px;
+    padding: 14px;
+  }
+
+  .scard img {
+    position: absolute;
+  
+    width: 70.72px;
+    height: 100px;
+  
+    top: -48%;
+  
+    left: 16%;
+  }
+  .scard p {
+    position: relative;
+    top: 65%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .safe {
+    margin-top: 57px;
+    margin-bottom: 44px;
+  }
+
+
+}
