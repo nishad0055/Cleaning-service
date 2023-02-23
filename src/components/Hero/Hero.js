@@ -63,10 +63,10 @@ const Hero = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mx-4 bannner ">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-4 bannner ">
           <img src={banner} alt="" />
           <img src={banner3} alt="" />
-          <img src={banner2} alt="" />
+          <img className="hidden md:block" src={banner2} alt="" />
         </div>
       </section>
     </div>

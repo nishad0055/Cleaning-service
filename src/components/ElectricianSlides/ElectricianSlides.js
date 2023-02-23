@@ -24,15 +24,15 @@ const ElectricianSlides = () => {
 
   return (
     <div>
-      <section className="flex items-center container mx-auto">
-        <div className="service-name">
+      <section className="md:flex items-center container mx-auto">
+        <div className="service-name text-center md:text-left ">
           <h2>Electrician Service</h2>
           <span>Premium Services</span>
         </div>
         <Swiper
           onSwiper={setSwiperRef}
-          slidesPerView={4}
           spaceBetween={20}
+          slidesPerView={3}
           pagination={{
             type: "fraction",
           }}
