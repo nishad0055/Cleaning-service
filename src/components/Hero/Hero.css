@@ -1,8 +1,11 @@
 .left-side {
-  background-image: url("../../img/cosmetologist.png");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(15, 13, 15, 0.20)),
+  url("../../img/cosmetologist.png")
+  ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
  
 }
 .left-side h1 {
