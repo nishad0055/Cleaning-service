@@ -6,7 +6,7 @@ const Category = ({ category }) => {
   return (
     <div>
       <a href="/">
-        <div className="text-center cat">
+        <div className="text-center cat mb-2.5 ">
           <img
             src={img}
             className="w-[35px] h-[35px] block mx-auto "

@@ -13,7 +13,7 @@ const Hero = () => {
       .then((data) => setCategories(data));
   }, []);
   return (
-    <div className="grid md:grid-cols-2">
+    <div className="grid md:grid-cols-2 justify-items-stretch">
       <section className="left-side hidden md:block">
         <h1 className="pt-[100px]">
           Home service, <br /> on Demand

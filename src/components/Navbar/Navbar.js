@@ -17,19 +17,20 @@ const Navbar = () => {
             <img src={logo} alt="" className="logo " />
             <div className="flex items-center">
               <FiMapPin />
-              <h5 className="text-base font-['Roboto']  text-[#415859]  ">
+              <button><h5 className="text-base font-['Roboto']  text-[#415859]  ">
                 1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh
                 201301
-              </h5>
-              <MdOutlineKeyboardArrowDown />
+                <MdOutlineKeyboardArrowDown className="inline" />
+              </h5></button>
+              
             </div>
           </div>
           <div className="flex items-center gap-5">
             <nav className="flex items-center text-base font-medium menu">
               <Link className="mr-5 ">Blog</Link>
               <Link className="mr-5 ">Career</Link>
-              <Link className="mr-1">My Account</Link>
-              <MdOutlineKeyboardArrowDown />
+              <Link className="mr-1">My Account <MdOutlineKeyboardArrowDown className="inline" /> </Link>
+              
             </nav>
             <FaShoppingCart color="#415859" />
             <img src={download} alt="" className="app" />
