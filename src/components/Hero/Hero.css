@@ -55,6 +55,17 @@
     background: #e8625d;
     border-radius: 5px;
   }
+  .coupon .angle{
+    position: absolute;
+    top: 11px;
+    /* left: 12px; */
+    right: 20px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+  }
 }
 @media only screen and (min-width: 1400px) {
   .coupon {
@@ -68,5 +79,16 @@
   .bannner img {
     width: 230px;
     height: 120.17px;
+  }
+  .coupon .angle{
+    position: absolute;
+    top: 11px;
+    /* left: 12px; */
+    right: 20px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
   }
 }

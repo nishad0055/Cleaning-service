@@ -55,7 +55,8 @@ const Hero = () => {
         <h1 className="pt-5">What are you looking for</h1>
 
         <div className="coupon">
-          <p>400$FLAT OFF</p>
+          <p>400$ FLAT OFF <span className="angle" ></span> </p>
+          
         </div>
         <div className="grid grid-cols-4 gap-10 my-7 mx-4  justify-items-center ">
           {categories.map((category) => (
